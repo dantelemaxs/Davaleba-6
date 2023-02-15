@@ -1,0 +1,187 @@
+@font-face{
+    font-family:'Cinzel', serif;
+    src: url(../font/Cinzel-Medium.ttf);
+}
+.header{
+    font-family: 'Cinzel', serif;
+display: flex;
+justify-content: space-between;
+text-align: center;
+background-color: rgba(245, 239, 239, 1);
+}
+:any-link{
+    text-decoration: none;
+    color:rgba(117, 70, 74, 1);
+}
+.navigation{
+display: flex;
+justify-content: space-around;
+width: 844px;
+text-align: center;
+padding-top: 13px;
+color: rgba(63, 50, 50, 1);
+}
+.navigationtext{ 
+    display: flex;
+    justify-content: space-around;
+    width: 844px;
+    text-align: center;
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.navigation img{
+    margin-left: 33px;
+    margin-right: 102px;
+    width: 42px;
+    height: 42px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    font-size: 22px;
+    font-weight: 400;
+    color:  rgba(63, 50, 50, 1);
+}
+.flower{
+    font-weight:900;
+}
+.logo img{
+    display: flex;
+     margin-left: 11px;
+    margin-top: 22px;
+    width: 32px;
+    height: 22px;
+}
+.header2{
+    font-family: 'Cinzel', serif;
+margin-top: 102px;
+font-size: 25px;
+font-weight: 700;
+margin-left: 170px;
+}
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 343px;
+    height: 532px;
+background-color: rgba(117, 70, 74, 0.7);
+background-color: rgba(247, 245, 245, 1);
+border: 1px solid rgba(117, 70, 74, 0.7);
+border-radius: 9.61px;
+}
+.maindiv img{ 
+    display: flex;
+width: 300px;
+height: 350px;
+margin-left: 21px;
+}
+.description{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.description h3{
+    font-family:'Cinzel', serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 92px;
+}
+.description p{
+    font-size: 16px;
+    font-style: italic;
+}
+.buttondiv{
+display: flex;
+justify-content: end;
+}
+.button1{
+background-color: rgba(63, 50, 50, 1);
+width: 159px;
+height: 38px;
+border-radius: 10px ;
+color: rgba(255, 255, 255, 1);
+border: none;
+margin-right: 29px;
+}
+.mainsection{
+display: flex;
+justify-content: space-around;
+margin-left: 102px;
+margin-right: 100px;
+margin-top: 100px;
+}
+.bottumbuttom{
+    display: flex;
+    justify-content: end;
+    margin-top: 92px;
+    margin-right: 124px;
+}
+.bottumbuttom button{
+    background-color: rgba(63, 50, 50, 1);
+    width: 237px;
+    height: 63px;
+    border-radius: 10px ;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    margin-right: 29px;
+    margin-bottom: 100px;
+}
+.footer{
+    background-color:rgba(245, 239, 239, 1);
+    display: flex;
+    justify-content: space-between;
+    height: 283px;
+    width: 100%;
+    color: rgba(117, 70, 74, 1);
+    ;
+}
+.gzamkvlevi{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.contactlogo{ 
+    font-size: 16px;
+    margin-top: 63px;
+    margin-right: 143px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo2{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    font-size: 22px;
+    color:  rgba(63, 50, 50, 1);
+    margin-top: 63px;
+    margin-left: 00px;
+    max-height: 22px;
+}
+.logo2 img{
+    margin-left: 11px;
+    margin-top: 22px;
+    width: 32px;
+    height: 22px;
+}
+.foryou{
+    font-family: 'Cinzel', serif;
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+margin-top: 28px;
+margin-left:-230px;
+}
+.socialmedia{
+    font-family: 'Cinzel', serif;
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+margin-top: 68px;
+margin-left:-170px; 
+}
+.socialmedia img{
+    width: 23px;
+    height: 23px;
+}

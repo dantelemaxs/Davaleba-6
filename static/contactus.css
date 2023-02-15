@@ -1,0 +1,196 @@
+@font-face{
+    font-family:'Cinzel', serif;
+    src: url(../font/Cinzel-Medium.ttf);
+}
+.header{
+    font-family: 'Cinzel', serif;
+display: flex;
+justify-content: space-between;
+text-align: center;
+background-color: rgba(245, 239, 239, 1);
+}
+:any-link{
+    text-decoration: none;
+    color:rgba(117, 70, 74, 1);
+}
+.navigation{
+display: flex;
+justify-content: space-around;
+width: 844px;
+text-align: center;
+padding-top: 13px;
+color: rgba(63, 50, 50, 1);
+}
+.navigationtext{ 
+    display: flex;
+    justify-content: space-around;
+    width: 844px;
+    text-align: center;
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.navigation img{
+    margin-left: 33px;
+    margin-right: 102px;
+    width: 42px;
+    height: 42px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.flower{
+    font-weight:900;
+}
+.logo img{
+    display: flex;
+    width: 32px;
+    height: 22px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.header2{
+    font-family: 'Cinzel', serif;
+margin-top: 102px;
+font-size: 25px;
+font-weight: 700;
+margin-left: 170px;
+}
+.sendusmes{
+    font-family: 'Cinzel', serif;
+    margin-left: 430px;
+width: 862px;
+height: 116px;
+}
+.sendusmes h5{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    text-shadow: 1px 1px;
+}
+.sendusmes p{
+    font-family: 'Cinzel', serif;
+    margin-left: 200px;
+font-size: 18px;
+}
+.personalinfodiv{ 
+    margin-top:120px ;
+    margin-left: 171px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 142px;
+}
+.personalinfodiv P{
+    color:  rgba(61, 61, 61, 1);
+}
+.writepad{ 
+border: 1px solid rgba(117, 70, 74, 0.7);
+border-radius: 10px;
+width: 525px;
+height: 66px;
+}
+.tellus{
+    border: 1px solid rgba(117, 70, 74, 0.7);
+border-radius: 10px;
+    width:580px ;
+    height: 400px;
+}
+.textusmap{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-left: 171px;
+margin-top: 130px;
+color: rgba(61, 61, 61, 1);
+}
+.map{
+margin-right: 270px;
+width: 580px;
+height: 470px;
+}
+.map1{
+    margin-top: 51px;
+    width:580px ;
+    height: 400px;
+}
+.termsofp{
+display: flex;
+}
+.termsofp img{
+    margin-left: 178px;
+    margin-right: 13px;
+    margin-top: 11px;
+    width: 25px;
+    height: 25px;
+}
+.buttonsendus{
+color: rgba(255, 255, 255, 1);
+width: 224px;
+height: 64px;
+background-color:  rgba(63, 50, 50, 1);
+border-radius: 10px;
+border: none;
+float: right;
+margin-top: 135px;
+margin-right: 270px;
+font-size: 20px;
+margin-bottom: 100px;
+}
+.footer{
+    background-color:rgba(245, 239, 239, 1);
+    display: flex;
+    justify-content: space-between;
+    height: 283px;
+    width: 100%;
+    color: rgba(117, 70, 74, 1);
+}
+.gzamkvlevi{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.contactlogo{ 
+    font-size: 16px;
+    margin-top: 63px;
+    margin-right: 143px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo2{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    font-size: 22px;
+    color:  rgba(63, 50, 50, 1);
+    margin-top: 63px;
+    margin-left: 00px;
+    max-height: 22px;
+}
+.logo2 img{
+    margin-left: 11px;
+    margin-top: 22px;
+    width: 32px;
+    height: 22px;
+}
+.foryou{
+    font-family: 'Cinzel', serif;
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+margin-top: 28px;
+margin-left:-230px;
+}
+.socialmedia{
+    font-family: 'Cinzel', serif;
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+margin-top: 68px;
+margin-left:-170px; 
+}
+.socialmedia img{
+    width: 23px;
+    height: 23px;
+}
